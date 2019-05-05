@@ -1,5 +1,4 @@
-﻿using Singleton.Lib;
-using System;
+﻿using System;
 using static System.Console;
 
 namespace Singleton
