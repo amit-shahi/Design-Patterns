@@ -31,9 +31,21 @@ Software Design Patterns: Examples in C# for Creational, Structural, Behavioural
       ```
      
 6. Singleton
-      ```
-    A class of which only a single instance can exist
-      ```
+      
+* A class of which only a single instance can exist
+     
+* This pattern is used when we want to ensure that only one object of a specific class needs to be created. All future references to the objects are referred to the same underlying instance created.
+
+* Singleton controls concurrent access to the same resource.
+
+* It ensures that, there is only one object available across the application in a controller state.
+
+* Make sure to provide global access to the instance by 
+  - Making sure all constructors of the class is declared as private
+  - Provide static method that returns a reference to the instance.
+  - The instance is tored as a private static variable.
+  - Make sure to delcare class as sealed.
+  
 
 
 
