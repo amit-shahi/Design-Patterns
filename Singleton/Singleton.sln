@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{F6389C7C-ADC1-4E1B-AF15-8229BB580C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.UnitTest", "Singleton.UnitTest\Singleton.UnitTest.csproj", "{35D7978C-C29F-4120-ABDA-02945914AECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6389C7C-ADC1-4E1B-AF15-8229BB580C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6389C7C-ADC1-4E1B-AF15-8229BB580C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6389C7C-ADC1-4E1B-AF15-8229BB580C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6389C7C-ADC1-4E1B-AF15-8229BB580C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D7978C-C29F-4120-ABDA-02945914AECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D7978C-C29F-4120-ABDA-02945914AECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D7978C-C29F-4120-ABDA-02945914AECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D7978C-C29F-4120-ABDA-02945914AECB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50E4520B-0317-4C04-9459-1065FE2E9105}
+	EndGlobalSection
+EndGlobal
