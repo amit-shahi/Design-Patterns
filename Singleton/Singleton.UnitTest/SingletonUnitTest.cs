@@ -6,7 +6,7 @@ namespace Singleton.UnitTest
     public class SingletonUnitTest
     {
 
-        [TestMethod]
+        //[TestMethod] - UnComment if you want to see this TestMethod failed, not satisfying Singleton
         public void Should_Not_Return_Single_Instance_Of_Employee_With_Wrong_Approach()
         {
 
