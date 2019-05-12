@@ -13,11 +13,20 @@ namespace Singleton
 
         private static readonly object _lock = new object();
 
-        private static Employee _instance;
+        // NOTE: The volatile keyword fixed the double lock issue
+
+        private static volatile Employee _instance;
         public static Employee Instance
         {
             get
             {
+                // NOTE: We do this for Thread-Safety using Double-Check locking
+
+                if (_instance != null)
+                    return _instance;
+
+                // NOTE: We can remove this double lock by removing lock(), because it's fixes in C# 6
+
                 lock (_lock)
                 {
                     // NOTE:
