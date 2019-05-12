@@ -1,3 +1,4 @@
+
 [![Build Status](https://dev.azure.com/amitshahidev/DesignPatterns/_apis/build/status/DesignPatterns-ASP.NET%20Core-CI?branchName=master)](https://dev.azure.com/amitshahidev/DesignPatterns/_build/latest?definitionId=2&branchName=master)
 
 
@@ -33,7 +34,7 @@ Software Design Patterns: Examples in C# for Creational, Structural, Behavioural
     A fully initialized instance to be copied or cloned
       ```
      
-6. Singleton
+6. [Singleton](https://github.com/amit-shahi/Design-Patterns/tree/master/Singleton 'Singleton Pattern')
       
 * A class of which only a single instance can exist
      
