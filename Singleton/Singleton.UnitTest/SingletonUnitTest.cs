@@ -6,11 +6,11 @@ namespace Singleton.UnitTest
     public class SingletonUnitTest
     {
 
-        //[TestMethod] - UnComment if you want to see this TestMethod failed, not satisfying Singleton
+        [TestMethod] 
         public void Should_Not_Return_Single_Instance_Of_Employee_With_Wrong_Approach()
         {
 
-            Assert.AreEqual(WrongApproach.Instance, WrongApproach.Instance);
+            Assert.AreNotEqual(WrongApproach.Instance, WrongApproach.Instance);
         }
 
         [TestMethod]
