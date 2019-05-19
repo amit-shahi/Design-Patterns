@@ -55,7 +55,7 @@ Software Design Patterns: Examples in C# for Creational, Structural, Behavioural
 
 ## Structural design patterns
 
-1. Adapter
+1. [Adapter](https://github.com/amit-shahi/Design-Patterns/tree/master/Adapter 'Adapter Pattern')
     ```
         Match interfaces of different classes
     ```
