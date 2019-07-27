@@ -1,5 +1,4 @@
-[![Build Status](https://dev.azure.com/amitshahidev/DesignPatterns/_apis/build/status/DesignPatterns-ASP.NET%20Core-CI%20(1)%20-%20Pipeline%20for%20.NET%20Core%20projects?branchName=master)](https://dev.azure.com/amitshahidev/DesignPatterns/_build/latest?definitionId=3&branchName=master)
-
+[![Build Status](https://dev.azure.com/amitshahidev/DesignPatterns/_apis/build/status/DesignPatterns-ASP.NET%20Core-CI?branchName=master)](https://dev.azure.com/amitshahidev/DesignPatterns/_build/latest?definitionId=2&branchName=master)
 
 # Software Design Patterns
 Software Design Patterns: Examples in C# for Creational, Structural, Behavioural design patterns.
