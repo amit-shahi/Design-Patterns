@@ -6,7 +6,7 @@ namespace Singleton
 {
     public sealed class WrongApproach : Employee
     {
-        // NOTE: This won't let derived class to create any instance with new keyword if the this class is not sealed.
+        // NOTE: This won't let derived class to create any instance with new keyword if the this class is sealed.
         private WrongApproach()
         {
         }
