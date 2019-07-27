@@ -27,5 +27,13 @@ namespace Singleton.UnitTest
             Assert.AreEqual(QuickApproach.Instance, QuickApproach.Instance);
 
         }
+
+        [TestMethod]
+        public void Should_Return_Single_Instance_Of_Emplyee_Using_Lazy_Approach()
+        {
+
+            Assert.AreEqual(LazyApproach.Instance, LazyApproach.Instance);
+
+        }
     }
 }
